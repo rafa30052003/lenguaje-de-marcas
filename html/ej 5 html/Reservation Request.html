@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Reservation Request</title>
+    </head>
+    <body>
+        <h1>Reservation Request</h1>
+        <form>
+            <fieldset>
+                <legend>General Information</legend>
+                <label for ="date">Arrival date:</label>
+                <input type="date" id="date" name="date"><br><br>
+                <label for ="Nights">Nights:</label>
+                <input type="text" id="text" name="text"><br><br>
+                <form action="/action_page.php"></form>
+                <label for="Adults">Adults:</label>
+                <select name="Adults" id="Adults"></select>
+                <option value="Adult1"></option>
+                <option value="Adult2"></option>
+                <form action="/action_page.php"></form>
+                <label for="Children">Children:</label>
+                <select name="Children" id="Children"></select>
+                <option value="Children1"></option>
+                <option value="Children2"></option><br><br>
+            </fieldset>
+            <fieldset>
+                <legend>Preferences</legend>
+                <label for="Roon type">Roon type:</label>
+                <label for="Stadard">Satandard</label>
+                <input type="radio" id="css" name="fav_language" value="CSS">
+                <label for="Business">Business</label>
+                <input type="radio" id="css" name="fav_language" value="CSS">
+                <label for="Suite">Suite</label>
+                <input type="radio" id="css" name="fav_language" value="CSS"><br><br>
+                <label for="Bed type">Bed type:</label>
+                <label for="King">King</label>
+                <input type="radio" id="css" name="fav_language" value="CSS">
+                <label for="Double Double">Double Double</label>
+                <input type="radio" id="css" name="fav_language" value="CSS"><br><br>
+                <input type="checkbox" id="Smoking" name="Smoking" value="Smoking">
+                <label for="Smoking">Smoking</label>
+            </fieldset>
+            <fieldset>
+                <label for="fname">Tu nombre:</label>
+                <input type="text" id="fname" name="fname"><br><br> 
+                <label for="fname">Email:</label>
+                <input type="email"><br><br>
+                <label for="fname">Phone:</label>
+                <input type="Phone"><br><br>
+            </fieldset>
+        </form>
+        <button type="button" onclick="alert('Hello world!')">Submit Reservation</button>
+        <button type="button" onclick="alert('Hello world!')">Clear</button>
+ 
+    </body>

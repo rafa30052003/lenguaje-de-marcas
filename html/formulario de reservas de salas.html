@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+        <style>
+        table,
+        th,
+        td {
+            border: 2px solid black;
+            border-collapse: collapse;
+            border-right: none;
+            border-left: none;
+            padding: 5px;
+        }
+ 
+        tr:nth-child(odd) {
+            background-color: #D6EEEE;
+        }
+        </style>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Formulario de reserva de salas</title>
+    </head>
+    <body>
+        <h1>Formulario de reserva de salas</h1>
+        <table style="width:60%">
+            <tr>
+                <td>
+                    <label for="fname">Tu nombre:*</label>
+                </td>
+                 <td>
+                    <input type="text" id="fname" name="fname"><br><br> 
+                 </td>   
+                        
+                
+              
+            </tr>
+            <tr>
+                <td>
+                    <label for="fname">Tu correo electronico:*</label>
+                </td>
+                <td>
+                    <input type="email"><br><br>
+                </td>    
+                        
+                        
+               
+                
+            </tr>
+            <tr>
+                <td>
+                    <label for="fname">Departamento:*</label>
+                </td>
+                <td>
+                    <input type="text" id="fname" name="fname"><br><br> 
+                </td>    
+                        
+                        
+                
+                
+            </tr>
+            <tr>
+                <td>
+                    <label for="fname">Tipo de sala para reservar:*</label>
+                </td>
+                <td>   
+                    <label for="fname">Tipo A</label>
+                    <input type="radio"><br><br>
+                    <label for="fname">Tipo B</label>
+                    <input type="radio"><br><br>
+                    <label for="fname">Tipo C</label>
+                    <input type="radio"><br><br>
+                </td>
+                
+            </tr>
+            <tr>
+                <td><label for="fname">Requisitos extra:*</label></td>
+                <td>  
+                    <label for="fname">Caballete y boligrafos</label>
+                    <input type="checkbox"><br><br>
+                    <label for="fname">Television</label>
+                    <input type="checkbox"><br><br>
+                    <label for="fname">Cafe, te y agua</label>
+                    <input type="checkbox"><br><br>
+                </td>
+                    
+            </tr>
+            <tr>
+                <td>
+                    <label for="fname">Fecha de la reserva:*</label>
+                </td>
+                 <td>   
+                    <input type="date"><br><br>
+                </td>
+                
+            </tr>
+            <tr>
+                <td> <label for="fname">Hora de la reserva:*</label></td>
+                <td>   
+                    <input type="time"><br><br>
+                </td>
+                
+            </tr>
+        </table>
+    </body>
