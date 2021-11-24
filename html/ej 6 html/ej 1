@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+        <style>
+            table, th, td {
+            border: 2px solid grey;
+            }
+        </style>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title></title>
+    </head>
+    <body>
+        <table>
+            <tr>
+                <td>
+                    <input type="checkbox">
+                    <label for="keywords">Enrollimet<br>limit</label>
+                </td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td rowspan="7">
+                    <h5>keywords:</h5>
+                    <input type="checkbox">
+                    <label for="keywords"> Science for nom-majors</label><br>
+                    <input type="checkbox">
+                    <label for="keywords">Fine arts for non-majors</label><br>
+                    <input type="checkbox">
+                    <label for="keywords"> Lab science course</label><br>
+                    <input type="checkbox">
+                    <label for="keywords">Artistic practice</label><br>
+                    <input type="checkbox">
+                    <label for="keywords">Foreing language/cultre<br>taught in English</label><br>
+                    <input type="checkbox">
+                    <label for="keywords"> Community based learning</label><br>
+                    <input type="checkbox">
+                    <label for="keywords"> Writing attentive</label><br>
+                    <input type="checkbox">
+                    <label for="keywords"> Writing  intensive</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="checkbox">
+                    <label for="keywords">Consent<br>required</label>
+                </td>
+                <td></td>
+                <td></td>
+                <td></td>
+                
+            </tr>
+            <tr>
+                <td rowspan="2">
+                    <input type="checkbox">
+                    <label for="keywords">LImit class<br>level</label><br>
+                </td>
+                <td rowspan="2"></td>
+                <td></td>
+                <td></td>
+                
+            </tr>
+            <tr>
+               
+                
+                <td></td>
+                <td></td>
+                
+            </tr>
+            <tr>
+                <td>
+                    <input type="checkbox">
+                    <label for="keywords">Prerequisite</label>
+                </td>
+                <td></td>
+                <td></td>
+                <td></td>
+                
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                
+            </tr>
+
+
+        </table>
+    </body>
