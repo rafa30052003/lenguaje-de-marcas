@@ -1,0 +1,29 @@
+/* This is a comment */
+/* Style Sheet for Jaberwocky Tutorial */
+
+/* Body */
+body {background-color: aqua} /*Cambia el color de todo*/
+
+/* Headers */
+h1 {color:maroon; font-size:20pt}/* Cambia del color al h1(titulo)*/
+
+/* HR (Hard Rule = line) */
+hr {color:navy} /*Color de ña linea (hr)*/
+
+/* Paragraphs */
+p {font-size:12pt; margin-left: 15px} /*tamaño del los margenes */
+p.verse {color:maroon; margin-left: 60px}
+
+/* Divs */
+
+/* Links */
+a:link     {color:green} /*color del enlace */
+a:visited  {color:yellow} /* cuando visitas la pagina, el enlace de se ponde de color amarillo*/
+a:hover    {color:black} /* color del enlace cuando pasas el puntero por encima*/
+a:active   {color:blue}/* color del enlace al pulsarlo*/
+
+/* Navigation */
+
+/* Classes used by all html elements */
+
+/* Ids */

@@ -1,0 +1,38 @@
+/* This is a comment */
+/* Style Sheet for Jaberwocky Tutorial */
+
+/* Body */
+body {background-color: rgb(158, 172, 172); /*Cambia el color de todo*/
+
+ 
+    background-image: url("jabber2.gif");
+    background-repeat: no-repeat;
+    background-position: 100% 50%;
+    width: 25%;
+}
+/* Headers */
+h1 {color:maroon;font-size:20pt;padding: 10px 10px 10px 10px; background-color: white;border-style: groove double;border-color: blue;border-width: 10px; text-align: center;margin: right 500px;}/* Cambia del color al h1(titulo)*/
+h2 {color:red;}
+
+/* HR (Hard Rule = line) */
+hr {color:navy; height: 10px; } /*Color de ña linea (hr)*/
+
+/* Paragraphs */
+p {font-size:12pt; margin-left: 15px} /*tamaño del los margenes */
+p.verse {color:maroon; margin-left: 60px}
+p.comment {color:blueviolet;}
+
+/* Divs */
+div.reference {color:slategray; margin-left: 40x;}
+
+/* Links */
+a:link     {color:green} /*color del enlace */
+a:visited  {color:yellow} /* cuando visitas la pagina, el enlace de se ponde de color amarillo*/
+a:hover    {color:black} /* color del enlace cuando pasas el puntero por encima*/
+a:active   {color:blue}/* color del enlace al pulsarlo*/
+
+/* Navigation */
+
+/* Classes used by all html elements */
+
+/* Ids */
