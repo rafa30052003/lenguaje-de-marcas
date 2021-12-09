@@ -1,0 +1,21 @@
+
+table, td, th {
+    border: 1px solid black;
+    
+  }
+
+
+   table tr:first-child td::first-letter{
+        font-size: 30px;
+    }
+
+    h3{
+        color:green;
+       
+    }
+    #c{
+ background-color: green;
+    }
+    #a{
+        background-color: yellow;
+    }
