@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<notaAlumno>
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="nota.xsd">
+     <ChrisSmith>
+        <YearsofMembership>4</YearsofMembership>
+    </ChrisSmith>
+    <JudiZimmerman>
+        <YearsofMembership>5</YearsofMembership>
+    </JudiZimmerman>
+    <MichaelCalder>
+        <YearsofMembership>3</YearsofMembership>
+    </MichaelCalder>
+</notaAlumno>
