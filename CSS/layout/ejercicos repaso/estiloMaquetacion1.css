@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .div1{
     display: flex;
     background-color: black;
@@ -140,3 +141,147 @@
     margin-bottom: 20px;
 
 }
+=======
+.div1{
+    display: flex;
+    background-color: black;
+}
+.goku{
+    color: white;
+    font-size:20px;
+    margin-left: 10px;
+}
+.giren{
+    color: white;
+    margin-left: 680px;
+    margin-top: 90px;
+}
+.div2{
+    display: flex;
+    background-color: rgba(2, 90, 2, 0.603);
+    height: 30px;
+}
+.gohan{
+    margin-left: 20px;
+    color: white;
+    margin-top: 5px;
+
+}
+.div3{
+    display: flex;
+    background-color: black;
+    justify-content: center;
+
+}
+.parrafo{
+    color: white;
+}
+.div4{
+    display: flex;
+    background-color: black;
+    justify-content: center;
+}
+.img1{
+    width: 80px;
+    height: 30px;
+    padding-top:0px;
+    margin-bottom: 3px;
+    
+}
+.div5{
+    display: flex;
+
+}
+.androide16{
+    background-color: gray;
+    padding-top: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+    margin-left: 50px;
+    justify-content: center;
+
+
+}
+.img2{
+    width: 100px;
+    height: 100px;
+    margin-bottom: 200px;
+}
+.menu{
+    margin-left: 40px;
+    margin-top: 0px;
+    
+}
+.div7{
+    display: flex;
+}
+.div5{
+    background-color: black;
+    justify-content:  center;
+}
+.messi{
+    background-color: gray;
+    margin-left: 30px;
+        width: 220px;
+        height: 260px;
+        border-radius: 5px;
+}
+.img47{
+    width: 180px;
+    height: 180px;
+    margin-left: 20px;
+}
+.h4{
+    margin-left: 19px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+   padding-top: 20px;
+}
+.elbicho{
+    margin-top: 45px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.kroos{
+    background-color: gray;
+    
+        width: 220px;
+        height: 260px;
+        border-radius: 5px;
+}
+.img48{
+    width: 170px;
+    height: 95px;
+    margin-left: 20px;
+    margin-bottom: 0px;
+}
+.h54{
+    margin-left: 19px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+   padding-top: 20px;
+
+    
+}
+.modric{
+    background-color: gray;
+    margin-top: 40px;
+   
+    margin-bottom: 8px;
+}
+.img333{
+    justify-content: right;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+     bottom: 0;
+    right: 0;
+}
+.div555{
+    display: flex;
+    background-color: gray;
+    position: relative;
+    margin-bottom: 20px;
+
+}
+>>>>>>> 93cd33929483043333fddf035f0da1faddad93a9
