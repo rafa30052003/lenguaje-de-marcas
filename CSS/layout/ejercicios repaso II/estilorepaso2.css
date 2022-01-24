@@ -1,0 +1,46 @@
+/*WRAPER*/
+.wraper{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-areas:
+    "header header header"  
+    "...... ....... ......"
+    "......  ...... .....";
+    background-color: #fff;
+    color: white;
+    
+}
+
+
+
+/*HEADER*/
+.header{
+    grid-area: header;
+    background-color: #000000;
+    
+    
+}
+
+.header h1{
+    color: white;
+   
+    
+    
+   
+}
+/*
+.p1{
+   justify-content: ; 
+    
+}
+*/
+/*NAV*/
+.nav{
+    background-color: black;
+    color: white;
+}
+.img{
+    width: 10px;
+    height: 10px;
+}
