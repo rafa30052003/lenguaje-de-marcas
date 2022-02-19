@@ -1,0 +1,232 @@
+body{
+    width: 100%;
+}
+/*WRAPER*/
+.wraper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+    "logo logo"
+    "a0 a0"
+    "pc pc"
+    "h1 h1"
+    "parrafo parrafo"
+    "boton boton";
+    width: 100%;
+}
+/*LOGO*/
+.logo{
+    grid-area: logo;
+    justify-content: center;
+}
+.logo img{
+    width: 100%;
+    height: 70%;
+}
+/*A0*/
+.a0{
+    grid-area: a0;
+    text-align: center;
+}
+.a0 a{
+    font-size: 80%;
+    margin-right: 3%;
+}
+.boton1{
+   width: 40%;
+   height: 40%;
+   margin-top: 10px;
+  
+   background-color: green;
+   color: white;
+   border-radius: 6px;
+
+}
+
+/*PC*/
+.pc{
+    background-color: blue;
+    grid-area: pc;
+    display: grid;
+    grid-template-columns: 0.25fr 0.5fr 0.25fr;
+    grid-template-areas:
+    "... imagen1 ..."
+}
+.imagen1{
+    grid-area: imagen1;
+    
+}
+.imagen1 img{
+  
+    width: 80%;
+    height: 70%;
+    margin-top: 20%;
+}
+/*H1*/
+.h1{
+    background-color: blue;
+    grid-area: h1;
+    text-align: center;
+    color: white;
+    
+}
+
+/*PARRAFO*/
+.parrafo{
+    background-color: blue;
+    grid-area: parrafo;
+    text-align: center;
+    color: white;
+}
+
+/*BOTON*/
+.boton{
+    background-color: blue;
+    grid-area: boton;
+    text-align: center;
+   
+    padding-top: 8%;
+}
+.boton2{
+ color: white;
+ background-color: green;
+ border-radius: 5px;
+}
+.boton3{
+ color: white;
+ background-color: blue;
+ border-radius: 8px;
+}
+@media only screen and (min-width: 769px){
+    /*WRAPER*/
+    .wraper{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas:
+        "logo logo"
+        "a0 a0"
+        "pc pc"
+        "h1 h1"
+        "parrafo parrafo"
+        "boton boton";
+        width: 100%;
+    }
+    /*A0*/
+    .a0{
+        grid-area: a0;
+        text-align: center;
+        padding-bottom: 3%;
+    }
+    .a0 a{
+        font-size: 80%;
+        margin-right: 3%;
+    }
+    .boton1{
+    width: 40%;
+    height: 80%;
+    margin-top: 10px;
+    
+    background-color: green;
+    color: white;
+    border-radius: 6px;
+
+    }
+    /*BOTON*/
+    .boton{
+        background-color: blue;
+        grid-area: boton;
+        text-align: center;
+      
+        padding-top: 8%;
+    }
+    .boton2{
+    width: 30%;
+    height: 40%;
+    color: white;
+    background-color: green;
+    border-radius: 5px;
+    padding-bottom: 5%;
+    font-size: 20px;
+    
+    }
+    .boton3{
+    color: white;
+    height: 40%;
+    background-color: blue;
+    border-radius: 8px;
+    padding-bottom: 5%;
+    font-size: 20px;
+    }
+}
+@media only screen and (min-width: 1024px){
+    .wraper{
+        display: grid;
+        grid-template-columns: 1fr 1fr 2fr;
+        grid-template-areas:
+        "logo a0 a0"
+        "pc pc h1"
+        "parrafo parrafo parrafo"
+        "boton boton boton";
+        width: 100%;
+    }
+    /*LOGO*/
+    .logo{
+       display: inline-block;
+        grid-area: logo;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        
+    }
+    .logo img{
+        
+        width: 100%;
+        height: 80%;
+    }
+    /*A0*/
+    .a0{
+       margin-top:1%;
+        grid-area: a0;
+        text-align: center;
+    }
+    .a0 a{
+        font-size: 17px;
+        margin-right: 3%;
+    }
+    .boton1{
+    width: 30%;
+    height: 60%;
+    font-size: 13px;
+    
+    background-color: green;
+    color: white;
+    border-radius: 6px;
+
+    }
+    /*H1*/
+.h1{
+    display: flex;
+    align-items: center;
+    background-color: blue;
+    grid-area: h1;
+    text-align: center;
+    color: white;
+    
+    }
+    /*PC*/
+    .imagen1 img{
+  
+        width: 100%;
+        height: 80%;
+        margin-top: 20%;
+    }
+    /*PARRAFO*/
+    .parrafo{
+        
+        background-color: blue;
+        grid-area: parrafo;
+        text-align: center;
+        color: white;
+    }
+    
+   
+}
