@@ -1,0 +1,111 @@
+body{
+    width: 100%;
+    margin: 0%;
+}
+/*WRAPER*/
+.wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+    "logo logo"
+    "titulo titulo"
+    "formulario formulario"
+    "imagen imagen"
+    "descripcion descripcion";
+    width: 100%;
+}
+/*LOGO*/
+.logo{
+    grid-area: logo;
+    text-align: center;
+    background-color: rgb(21, 88, 21);
+}
+.img1{
+   width: 35%;
+   height: 35%;
+}
+/* TITULO*/
+.titulo{
+grid-area: titulo;
+background-color: rgb(21, 88, 21);
+
+}
+.titulo h1{
+    margin-top: 0%;
+    margin-bottom: 0%;
+    color: white;
+    padding-bottom: 5%;
+}
+/*FORMULARIO*/
+.formulario{
+    grid-area: formulario;
+    padding-top: 2%;
+    padding-bottom: 5%;
+    text-align: center;
+    background-color: rgb(201, 156, 99);
+}
+.formulario form{
+    color: white;
+}
+/*IMAGEN*/
+.imagen{
+    grid-area: imagen;
+    padding-top: 2%;
+    background-color: rgb(201, 156, 99);
+    text-align: center;
+    padding-bottom: 2%;
+}
+/*DESCRIPCION*/
+.descripcion{
+    grid-area: descripcion ;
+    padding-top: 5%;
+    padding-bottom: 2%;
+    background-color: rgb(201, 156, 99);
+}
+.descripcion h4{
+    text-align: center;
+    color: white;
+}
+.descripcion span{
+    text-align: center;
+    color: white;
+}
+@media only screen and (min-width: 769px){
+}
+@media only screen and (min-width: 1024px) {
+    .wrapper{
+        display: grid;
+        grid-template-columns: 1fr 1fr 2fr;
+        grid-template-areas:
+        "logo titulo titulo"
+        "imagen imagen formulario"
+        "descripcion descripcion descripcion"
+        ;
+        width: 100%;
+    }
+    /*LOGO*/
+.logo{
+    grid-area: logo;
+    text-align: center;
+    background-color: rgb(21, 88, 21);
+}
+.img1{
+   width: 100%;
+   height: 70%;
+}
+/* TITULO*/
+.titulo{
+grid-area: titulo;
+background-color: rgb(21, 88, 21);
+
+}
+.titulo h1{
+    margin-top: 0%;
+    margin-bottom: 0%;
+    color: white;
+    padding-bottom: 5%;
+    font-size: 30px;
+    padding-top: 5%;
+    padding-left: 2%;
+}
+}
